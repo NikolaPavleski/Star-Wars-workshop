@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(Star-Wars-Background.jpg);
+}
+header {
+    background-color: yellow;
+    color: white;
+    padding: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+}
+.table-container {
+    margin-top: 20px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+tr {
+    background-color: black;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid wheat;
+    color: white;
+}
+th {
+    background-color: black;
+    color: white;
+}
+.pagination {
+    margin-top: 20px;
+}
+h1 {
+    color: yellow;
+}

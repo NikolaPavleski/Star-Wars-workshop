@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Jedi.css">
+</head>
+<body>
+  <img src="Logo.png">
+  <h1>Star Wars Archives</h1>
+    <div class="intro">
+      <button id="peopleBtn"><img id="peopleBtn" src="People.jpg"></button>
+      <button id="shipsBtn"><img id="shipsBtn" src="Ships.jpg"></button>
+    </div>
+  </header>
+  <div id="tables">
+    <div id="peopleTable" class="table-container" style="display: none;">
+      <h2>People Info</h2>
+      <table id="peopleList"></table>
+      <button id="prevPeopleBtn" class="pagination">Previous</button>
+      <button id="nextPeopleBtn" class="pagination">Next</button>
+    </div>
+    <div id="shipsTable" class="table-container" style="display: none;">
+      <h2>Ships Info</h2>
+      <table id="shipsList"></table>
+      <button id="prevShipsBtn" class="pagination">Previous</button>
+      <button id="nextShipsBtn" class="pagination">Next</button>
+    </div>
+  </div>
+  <script src="Jedi.js"></script>
+</body>
+</html>
