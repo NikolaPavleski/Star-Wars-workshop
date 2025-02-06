@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Jedi.css">
+</head>
+<body>
+  <img src="Logo.png">
+  <h1>Star Wars Archives</h1>
+  <div class="intro">
+    <button id="peopleBtn"><img src="People.jpg" alt="People"></button>
+    <button id="shipsBtn"><img src="Ships.jpg" alt="Ships"></button>
+    <button id="planetsBtn"><img src="Planets.jpg" alt="Planets"></button>
+  </div>
+  <div id="tables">
+    <div id="peopleTable" class="table-container" style="display: none;">
+      <h2>People Info</h2>
+      <div id="error-message" style="display: none; color: red; text-align: center;">
+        Error. Something went wrong. Try again later
+      </div>
+      <table id="peopleList"></table>
+      <button id="prevPeopleBtn" class="pagination">Previous</button>
+      <button id="nextPeopleBtn" class="pagination">Next</button>
+    </div>
+    <div id="shipsTable" class="table-container" style="display: none;">
+      <h2>Ships Info</h2>
+      <div id="error-message" style="display: none; color: red; text-align: center;">
+        Error. Something went wrong. Try again later
+      </div>
+      <table id="shipsList"></table>
+      <button id="prevShipsBtn" class="pagination">Previous</button>
+      <button id="nextShipsBtn" class="pagination">Next</button>
+    </div>
+    <div id="planetsTable" class="table-container" style="display: none;">
+      <h2>Planets Info</h2>
+      <div id="error-message" style="display: none; color: red; text-align: center;">
+        Error. Something went wrong. Try again later
+      </div>
+      <table id="planetsList"></table>
+      <button id="prevPlanetsBtn" class="pagination">Previous</button>
+      <button id="nextPlanetsBtn" class="pagination">Next</button>
+    </div>
+    <div id="spinner" class="spinner" style="display: none;"></div>
+  </div>
+  <script src="Jedi.js"></script>
+</body>
+</html>
